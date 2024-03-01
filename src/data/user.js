@@ -1,82 +1,52 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "Angelica Zachowski Portfolio",
+		name: "Angelica Zachowski",
+		email: "zachowskia@gmail.com",
+
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/Angelica-zach",
+		linkedin: "https://linkedin.com/in/angelica-zachowski/",
+
 	},
 
-	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
-		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
-	},
 
-	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
-	},
 
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Wellness App",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			"Our page is to help simplify fitness. It consists of a meal planner with calorie and diet-type features, to ensure it is inclusive to dietary requirements.It also has a workout planner to help you plan your fitness. And last but not least, a self-care page, where you can input a skincare routine and see helpful stretching videos",
 			linkText: "View Project",
-			link: "https://github.com",
+			link:" https://group4-wellness-app.netlify.app/",
 		},
 
 		{
-			title: "Project 2",
+			title: "Mood Match",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"App created to be able to pick a mood card, which return corresponding playlists and concerts to mthc your groove",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://angelica-zach.github.io/mood-match/",
+		},
+
+
+		{
+			title: "Weather Forecast Page",
+			description:
+				"Weather site that allows location input, which then calls the Open Weather API to display a 5 day forecast. Last 5 searches saved and displayed for easy acces to recall",
+			linkText: "View Project",
+			link: "https://angelica-zach.github.io/Weather-Forecast-Page/",
 		},
 
 		{
-			title: "Project 3",
+			title: "Calendar App",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"A 9-5 work day calendar with date displayed from Day.JS. Also has colour coding for 3 different time states(past, present , future)",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://angelica-zach.github.io/Calendar-App/",
 		},
 	],
 };
