@@ -40,18 +40,18 @@ const Homepage = () => {
 										sequence={[
 											"UX", // Types 'One'
 											1000, // Waits 1s
-											"UX/", // Deletes 'One' and types 'Two'
-											1000, // Waits 2s
-											"UX/UI", // Types 'Three' without deleting 'Two'
+											"UX /", // Deletes 'One' and types 'Two'
+											500, // Waits 2s
+											"UX / UI", // Types 'Three' without deleting 'Two'
 											1000,
-											"UX/UI Developer", // Types 'Three' without deleting 'Two'
-											1000,
-											"UX/UI", // Types 'Three' without deleting 'Two'
-											1000,
-											"UX/", // Types 'Three' without deleting 'Two'
-											1000,
+											"UX / UI Developer", // Types 'Three' without deleting 'Two'
+											2000,
+											"UX / UI", // Types 'Three' without deleting 'Two'
+											500,
+											"UX /", // Types 'Three' without deleting 'Two'
+											500,
 											"UX", // Types 'Three' without deleting 'Two'
-											1000,
+											500,
 											"", // Types 'Three' without deleting 'Two'
 										]}
 										wrapper="span"
