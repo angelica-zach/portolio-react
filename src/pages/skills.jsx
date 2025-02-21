@@ -19,6 +19,7 @@ const Skills = () => {
 									<p>CSS</p>
 									<p>HTML</p>
 									<p>JavaScript</p>
+									<p>SASS</p>
 									<p>C</p>
 								</div>
 							</div>
@@ -38,7 +39,7 @@ const Skills = () => {
 									Tools + Platforms
 								</h3>
 								<div className="skill-box">
-									<p>Bootsrap</p>
+									<p>Bootstrap</p>
 									<p>Figma</p>
 									<p>Notion</p>
 									<p>Jira</p>
