@@ -22,7 +22,17 @@ const Projects = () => {
 				<div className="content-wrapper">
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to make my mark on the world
+							Things I’ve made trying to make my{" "}
+							<span
+								style={{
+									fontStyle: "italic",
+									textDecoration:
+										"text-decoration: underline #F3ABAB wavy",
+								}}
+							>
+								mark
+							</span>{" "}
+							on the world
 						</div>
 
 						<div className="projects-list">

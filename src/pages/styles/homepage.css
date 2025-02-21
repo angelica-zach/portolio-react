@@ -15,6 +15,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height:400px;
 }
 
 .homepage-first-area-left-side {
@@ -96,6 +97,7 @@
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;
+		justify-content: center;
 	}
 
 	.homepage-first-area-left-side {
@@ -146,5 +148,10 @@
 		flex-basis: auto;
 		margin-left: -25px;
 		margin-right: -25px;
+	}
+}
+@media (max-width:768px){
+	.homepage-title span{
+		font-size:1.5em;
 	}
 }

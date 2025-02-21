@@ -21,7 +21,7 @@ const About = () => {
 							<div className="about-right-side">
 								<div className="title about-title">
 									I’m{" "}
-									<span style={{ color: "#74a575" }}>
+									<span style={{ color: "#54692f" }}>
 										Angelica Zachowski
 									</span>
 									. I live in London, where I am aspiring for

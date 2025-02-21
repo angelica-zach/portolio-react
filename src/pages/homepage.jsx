@@ -23,15 +23,15 @@ const Homepage = () => {
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
-					<div className="homepage-container">
-						<div
-							className="homepage-first-area"
-							style={{
-								backgroundImage: "url(/background.png)",
-								backgroundRepeat: "no-repeat",
-								backgroundSize: "contain",
-							}}
-						>
+					<div
+						className="homepage-container"
+						style={{
+							backgroundImage: "url(/background.png)",
+							backgroundRepeat: "no-repeat",
+							backgroundSize: "contain",
+						}}
+					>
+						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<h3>Angelica Zachowski</h3>
 								<div className="title homepage-title">
