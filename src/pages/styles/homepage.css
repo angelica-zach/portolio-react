@@ -25,7 +25,7 @@
 }
 
 .homepage-title {
-	width: 85% !important;
+	width: 100% !important;
 }
 
 .homepage-subtitle {
@@ -151,7 +151,12 @@
 	}
 }
 @media (max-width:768px){
+	.homepage-title{
+		height:200px;
+	}
 	.homepage-title span{
-		font-size:1.5em;
+		font-size:1.5em !important;
 	}
 }
+@media (max-width:425px){
+	.homepage-container{background-size: 500px !important;}}

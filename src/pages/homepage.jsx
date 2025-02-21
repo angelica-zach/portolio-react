@@ -29,6 +29,7 @@ const Homepage = () => {
 							backgroundImage: "url(/background.png)",
 							backgroundRepeat: "no-repeat",
 							backgroundSize: "contain",
+							backgroundOrigin: "content-box",
 						}}
 					>
 						<div className="homepage-first-area">

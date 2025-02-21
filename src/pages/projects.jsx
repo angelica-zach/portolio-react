@@ -26,8 +26,7 @@ const Projects = () => {
 							<span
 								style={{
 									fontStyle: "italic",
-									textDecoration:
-										"text-decoration: underline #F3ABAB wavy",
+									textDecoration: "underline #F3ABAB wavy",
 								}}
 							>
 								mark
