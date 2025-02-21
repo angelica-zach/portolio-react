@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import "./styles/skills.css";
-import "nes.css/css/nes.min.css";
 
 const Skills = () => {
 	return (
@@ -11,9 +10,7 @@ const Skills = () => {
 				<NavBar active="skills" />
 				<div className="content-wrapper">
 					<div className="contact-container">
-						<div className="title contact-title nes-text is-primary">
-							My Skills
-						</div>
+						<div className="title contact-title">My Skills</div>
 						<div className="section-content-container">
 							<br />
 							<div className="container-skills">
