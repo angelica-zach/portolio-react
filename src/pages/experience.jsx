@@ -27,19 +27,17 @@ const Experience = () => {
 				<NavBar active="experience" />
 				<div className="content-wrapper">
 					<div className="experience-container">
-						<VerticalTimeline>
+						<VerticalTimeline lineColor="#000000">
 							<VerticalTimelineElement
 								className="vertical-timeline-element--work"
 								contentStyle={{
-									background: "rgb(33, 150, 243)",
-									color: "#fff",
-								}}
-								contentArrowStyle={{
-									borderRight: "7px solid  rgb(33, 150, 243)",
+									background: " #f4f4f4",
+									color: "#000000",
+									borderTop: "solid 1px rgb(84, 105, 47)",
 								}}
 								date="Apr 2024 - present"
 								iconStyle={{
-									background: "rgb(33, 150, 243)",
+									background: "rgb(84, 105, 47)",
 									color: "#fff",
 								}}
 								// icon={<WorkIcon />}
@@ -59,8 +57,13 @@ const Experience = () => {
 							<VerticalTimelineElement
 								className="vertical-timeline-element--education"
 								date="October 2023 - Feb 2024"
+								contentStyle={{
+									background: " #f4f4f4",
+									color: "#000000",
+									borderTop: "solid 1px#DE3163",
+								}}
 								iconStyle={{
-									background: "rgb(233, 30, 99)",
+									background: "#DE3163",
 									color: "#fff",
 								}}
 								// icon={<SchoolIcon />}
@@ -78,9 +81,14 @@ const Experience = () => {
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
 								className="vertical-timeline-element--education"
-								date="20020 - 2023"
+								date="2020 - 2023"
+								contentStyle={{
+									background: " #f4f4f4",
+									color: "#000000",
+									borderTop: "solid 1px#DE3163",
+								}}
 								iconStyle={{
-									background: "rgb(233, 30, 99)",
+									background: "#DE3163",
 									color: "#fff",
 								}}
 								// icon={<SchoolIcon />}
@@ -99,7 +107,7 @@ const Experience = () => {
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
 								iconStyle={{
-									background: "rgb(16, 204, 82)",
+									background: "#FF7833",
 									color: "#fff",
 								}}
 								// icon={<StarIcon />}
