@@ -112,7 +112,7 @@ const Process = () => {
 										<div className="d-flex justify-content-center">
 											<img
 												className=""
-												src="stats2.png"
+												src="/stats2.png"
 												alt="music statistics"
 												style={{ width: "50%" }}
 											/>
@@ -258,9 +258,287 @@ const Process = () => {
 								</div>
 							</section>
 
-							<section id="design" className="group"></section>
-							<section id="develop" className="group"></section>
-							<section id="deliver" className="group"></section>
+							<section id="design" className="group">
+								<div
+									className="container-fluid maintext d-flex align-items-center justify-content-center"
+									style={{ height: "25vh", width: "100%" }}
+								>
+									<h2 className="fs-1 pt-1 font-monospace">
+										Define
+									</h2>
+								</div>
+
+								<div
+									className="container align-items-center mt-4"
+									style={{ width: "60%" }}
+								>
+									{/* Persona Section */}
+									<div className="pb-4">
+										<h4 className="subheading fs-6 font-monospace">
+											PERSONA
+										</h4>
+										<br />
+										<h3 className="display-3 question">
+											Crafting a persona
+										</h3>
+										<p className="p-3">
+											The persona is based on a younger
+											person (18-30) as they are more
+											likely to seek out music on
+											streaming platforms. The mentioned
+											frustrations, goals, and behaviours
+											are based on the interview findings
+											and secondary research, and reflect
+											issues that most consumers of music
+											face.
+										</p>
+										<img
+											className="pt-5"
+											src="/user-profile.png"
+											alt="persona"
+											style={{ width: "80%" }}
+										/>
+									</div>
+
+									{/* User Task Flow Section */}
+									<div className="pb-4 pt-5">
+										<h4 className="subheading fs-6 font-monospace">
+											USER TASK FLOW
+										</h4>
+										<br />
+										<h3 className="display-3 question">
+											Understanding what a user wants
+										</h3>
+										<p className="p-3">
+											Having created a user persona, I
+											began to think of user stories and
+											task flows for common
+											functionalities.
+										</p>
+
+										{/* Task Flow 1 */}
+										<img
+											className="pt-5"
+											src="/user-flow-1.jpg"
+											alt="music Choice"
+											style={{ width: "80%" }}
+										/>
+										<div className="border border-primary rounded p-3 mt-3">
+											<h3 className="font-monospace">
+												User Task Flow 1: Selecting a
+												mood
+											</h3>
+											<p>
+												The first task flow is to do
+												with a user selecting a mood
+												from a carousel of options.
+											</p>
+										</div>
+
+										{/* Task Flow 2 */}
+										<img
+											className="pt-5"
+											src="/user-flow-2.png"
+											alt="touring"
+											style={{ width: "80%" }}
+										/>
+										<div className="border border-primary rounded p-3 mt-3">
+											<h3 className="font-monospace">
+												User Task Flow 2: Tour Dates
+											</h3>
+											<p>
+												The second flow is when artists
+												appear, and a user can click on
+												them to see upcoming tour dates.
+												If they are not currently
+												touring, the user is informed
+												via a modal.
+											</p>
+										</div>
+									</div>
+								</div>
+							</section>
+							<section id="develop" className="group">
+								<div
+									className="container-fluid maintext d-flex align-items-center justify-content-center"
+									style={{ height: "25vh", width: "100%" }}
+								>
+									<h2 className="fs-1 pt-1 font-monospace">
+										Develop
+									</h2>
+								</div>
+
+								{/* Content Section */}
+								<div
+									className="container align-items-center mt-4"
+									style={{ width: "60%" }}
+								>
+									{/* Wireframing */}
+									<div className="pb-4">
+										<h4 className="subheading fs-6 font-monospace">
+											WIREFRAMING
+										</h4>
+										<br />
+										<h3 className="display-3 question">
+											UI Design
+										</h3>
+										<p className="p-3">
+											After all the research was done and
+											key areas were identified, it was
+											time to create a polished user
+											interface design prototype on Figma.
+										</p>
+										<img
+											className=""
+											src="/wireframe.png"
+											alt="wireframe"
+											style={{ width: "80%" }}
+										/>
+									</div>
+
+									{/* Brand Imagery */}
+									<div className="pb-4">
+										<h4 className="subheading fs-6 font-monospace">
+											BRAND IMAGERY
+										</h4>
+										<br />
+										<h3 className="display-3 question">
+											Design choices
+										</h3>
+										<p className="p-3">
+											As the app is targeted at young
+											people, particularly those up to
+											date with trends, deciding on a
+											uniform brand was important. This
+											generation has grown up with
+											internet advancements and now values
+											a highly aesthetically beautiful
+											site more than just a functional
+											one. It had to be pleasing and
+											friendly. Based on research of the
+											latest trends (done by scrolling
+											through popular social media
+											platforms and seeing what kind of
+											imagery was being used), I collated
+											a vision board.
+										</p>
+										<img
+											className=""
+											src="/mood-board.png"
+											alt="mood board"
+											style={{ width: "80%" }}
+										/>
+									</div>
+								</div>
+							</section>
+
+							<section className="deliver">
+								{/* Header */}
+								<div
+									className="container-fluid maintext d-flex align-items-center justify-content-center"
+									style={{ height: "25vh", width: "100%" }}
+								>
+									<h2 className="fs-1 pt-1 font-monospace">
+										Deliver
+									</h2>
+								</div>
+
+								{/* Content */}
+								<div
+									className="container align-items-center mt-4"
+									style={{ width: "60%" }}
+								>
+									{/* Wireframing */}
+									<div className="pb-4">
+										<h4 className="subheading fs-6 font-monospace">
+											WIREFRAMING
+										</h4>
+										<br />
+										<h3 className="display-3 question">
+											DESIGN
+										</h3>
+										<p className="p-3">
+											After all the research was done and
+											key areas were identified, it was
+											time to create a polished user
+											interface design prototype on Figma.
+										</p>
+										<img
+											src="/wireframe.png"
+											alt="wireframe"
+											style={{ width: "80%" }}
+										/>
+									</div>
+
+									{/* Refinement */}
+									<div className="pb-4">
+										<h4 className="subheading fs-6 font-monospace">
+											REFINEMENT
+										</h4>
+										<br />
+										<h3 className="display-3 question">
+											PALLETTE
+										</h3>
+										<img
+											src="/Mood site pallete.png"
+											alt="palette"
+											style={{ width: "80%" }}
+										/>
+										<p>
+											A palette was generated from
+											inspiration from the mood board.
+										</p>
+
+										<br />
+										<h3 className="display-3 question">
+											HIGH FIDELITY DESIGN
+										</h3>
+										<p className="p-3">
+											This then led to a higher fidelity,
+											cleaner design, where elements were
+											spread among pages.
+										</p>
+										<img
+											src="/Main page.png"
+											alt="Main Page"
+											style={{ width: "80%" }}
+										/>
+										<img
+											src="/Artists.png"
+											alt="Artist Page"
+											style={{ width: "80%" }}
+										/>
+										<img
+											src="/Concerts.png"
+											alt="Concert Page"
+											style={{ width: "80%" }}
+										/>
+									</div>
+
+									{/* Next Steps */}
+									<div className="pb-4">
+										<h4 className="subheading fs-6 font-monospace">
+											NEXT STEPS
+										</h4>
+										<br />
+										<h3 className="display-3 question">
+											POSSIBLE IMPROVEMENTS?
+										</h3>
+										<ul className="p-3">
+											<li>
+												Adding a map API to show
+												features near the concert venue
+												e.g. cafes, bars
+											</li>
+											<li>
+												Adding a recipe API to bring up
+												recipes to do with mood
+											</li>
+											<li>Autoplay music</li>
+										</ul>
+									</div>
+								</div>
+							</section>
 						</div>
 					</div>
 					<div className="page-footer">
