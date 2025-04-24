@@ -40,7 +40,7 @@ const Experience = () => {
 									background: "rgb(84, 105, 47)",
 									color: "#fff",
 								}}
-								icon={<faBriefcase />}
+								icon={<FontAwesomeIcon icon={faBriefcase} />}
 							>
 								<h3 className="vertical-timeline-element-title">
 									UI Developer/Designer
@@ -66,7 +66,9 @@ const Experience = () => {
 									background: "#DE3163",
 									color: "#fff",
 								}}
-								icon={<faGraduationCap />}
+								icon={
+									<FontAwesomeIcon icon={faGraduationCap} />
+								}
 							>
 								<h3 className="vertical-timeline-element-title">
 									Front end Web development bootcamp
@@ -91,7 +93,9 @@ const Experience = () => {
 									background: "#DE3163",
 									color: "#fff",
 								}}
-								icon={<faGraduationCap />}
+								icon={
+									<FontAwesomeIcon icon={faGraduationCap} />
+								}
 							>
 								<h3 className="vertical-timeline-element-title">
 									BEng in Electrical and Electronic
@@ -110,7 +114,7 @@ const Experience = () => {
 									background: "#FF7833",
 									color: "#fff",
 								}}
-								icon={<faStar />}
+								icon={<FontAwesomeIcon icon={faStar} />}
 							/>
 						</VerticalTimeline>
 					</div>

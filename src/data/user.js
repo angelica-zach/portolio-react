@@ -28,8 +28,8 @@ const INFO = {
 			title: "Mood Match",
 			description:
 				"App created to be able to pick a mood card, which return corresponding playlists and concerts to match your groove",
-			linkText: "View Project",
-			link: "https://angelica-zach.github.io/mood-match/",
+			linkText: "View Project and design process",
+			link: "/projects/process",
 		},
 
 

@@ -8,6 +8,7 @@ import Projects from "./pages/projects";
 import Skills from "./pages/skills"
 import Contact from "./pages/contact";
 import Experience from "./pages/experience";
+import Process from "./pages/process";
 import Notfound from "./pages/404";
 
 
@@ -21,7 +22,9 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
-				<Route path="/projects" element={<Projects />} />
+				<Route path="/projects" element={<Projects />}>
+				<Route path="process" element={<Process />}/>
+				</Route>
 				<Route path="/skills" element={<Skills />} />
 				<Route path="/experience" element={<Experience />} />
 				<Route path="/contact" element={<Contact />} />
