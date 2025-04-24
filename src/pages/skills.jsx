@@ -96,9 +96,6 @@ const Skills = () => {
 									onMouseLeave={() => setHoveredIndex(null)}
 									style={{
 										cursor: "pointer",
-										marginBottom: "10px",
-										padding: "10px",
-										borderRadius: "4px",
 										transition: "all 0.3s ease",
 										display: "flex",
 										alignItems: "center",

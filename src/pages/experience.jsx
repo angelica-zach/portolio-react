@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faGraduationCap, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { TypeAnimation } from "react-type-animation";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
@@ -40,7 +40,7 @@ const Experience = () => {
 									background: "rgb(84, 105, 47)",
 									color: "#fff",
 								}}
-								// icon={<WorkIcon />}
+								icon={<faBriefcase />}
 							>
 								<h3 className="vertical-timeline-element-title">
 									UI Developer/Designer
@@ -66,7 +66,7 @@ const Experience = () => {
 									background: "#DE3163",
 									color: "#fff",
 								}}
-								// icon={<SchoolIcon />}
+								icon={<faGraduationCap />}
 							>
 								<h3 className="vertical-timeline-element-title">
 									Front end Web development bootcamp
@@ -91,7 +91,7 @@ const Experience = () => {
 									background: "#DE3163",
 									color: "#fff",
 								}}
-								// icon={<SchoolIcon />}
+								icon={<faGraduationCap />}
 							>
 								<h3 className="vertical-timeline-element-title">
 									BEng in Electrical and Electronic
@@ -110,7 +110,7 @@ const Experience = () => {
 									background: "#FF7833",
 									color: "#fff",
 								}}
-								// icon={<StarIcon />}
+								icon={<faStar />}
 							/>
 						</VerticalTimeline>
 					</div>
