@@ -21,19 +21,21 @@ padding-bottom: 30px;
 	font-size:1em;
 }
 .skill-box{
-    display: flex;
     justify-content: space-evenly;
 }
-.skill-box{
-    display: none;
-    justify-content: space-evenly;
-}
+
 .skill-box p{
 	font-family: "Press Start 2P", system-ui;
 }
 
-.skills-title{	font-family: "Press Start 2P", system-ui;
+.skills-title{	font-family: "Press Start 2P", system-ui !important;
 text-align: center;}
 .skill-container{    padding: 16px;    background: grey;
     border: 20px solid #ddd3d3;
 	border-radius: 10px;    align-items: center;}
+
+	@media (max-width:768px){
+		.skills-title{
+			font-size: 36px;
+			}
+	}

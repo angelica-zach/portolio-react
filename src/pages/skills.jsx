@@ -97,7 +97,6 @@ const Skills = () => {
 									style={{
 										cursor: "pointer",
 										marginBottom: "10px",
-										border: "1px solid #ccc",
 										padding: "10px",
 										borderRadius: "4px",
 										transition: "all 0.3s ease",
@@ -105,16 +104,15 @@ const Skills = () => {
 										alignItems: "center",
 									}}
 								>
-									<span
-										style={{
-											width: "20px",
-											marginRight: "10px",
-										}}
-									>
-										{hoveredIndex === index ? "➤" : ""}
-									</span>
 									<div className="container-skills">
 										<h3 className="title-skills">
+											<span
+												style={{ marginRight: "8px" }}
+											>
+												{hoveredIndex === index
+													? "➤"
+													: ""}
+											</span>
 											{item.title}
 										</h3>
 										{openIndex === index && (
