@@ -88,43 +88,45 @@ const Skills = () => {
 									<p>Microsoft Office</p>
 								</div>
 							</div> */}
-							<div
-								key={index}
-								onClick={() => toggleContent(index)}
-								onMouseEnter={() => setHoveredIndex(index)}
-								onMouseLeave={() => setHoveredIndex(null)}
-								style={{
-									cursor: "pointer",
-									marginBottom: "10px",
-									border: "1px solid #ccc",
-									padding: "10px",
-									borderRadius: "4px",
-									transition: "all 0.3s ease",
-									display: "flex",
-									alignItems: "center",
-								}}
-							>
-								<span
+							{items.map((item, index) => (
+								<div
+									key={index}
+									onClick={() => toggleContent(index)}
+									onMouseEnter={() => setHoveredIndex(index)}
+									onMouseLeave={() => setHoveredIndex(null)}
 									style={{
-										width: "20px",
-										marginRight: "10px",
+										cursor: "pointer",
+										marginBottom: "10px",
+										border: "1px solid #ccc",
+										padding: "10px",
+										borderRadius: "4px",
+										transition: "all 0.3s ease",
+										display: "flex",
+										alignItems: "center",
 									}}
 								>
-									{hoveredIndex === index ? "➤" : ""}
-								</span>
-								<div className="container-skills">
-									<h3 className="title-skills">
-										{item.title}
-									</h3>
-									{openIndex === index && (
-										<div className="skill-box">
-											{item.content.map((para, i) => (
-												<p key={i}>{para}</p>
-											))}
-										</div>
-									)}
+									<span
+										style={{
+											width: "20px",
+											marginRight: "10px",
+										}}
+									>
+										{hoveredIndex === index ? "➤" : ""}
+									</span>
+									<div className="container-skills">
+										<h3 className="title-skills">
+											{item.title}
+										</h3>
+										{openIndex === index && (
+											<div className="skill-box">
+												{item.content.map((para, i) => (
+													<p key={i}>{para}</p>
+												))}
+											</div>
+										)}
+									</div>
 								</div>
-							</div>
+							))}
 						</div>
 					</div>
 					<div className="page-footer">
