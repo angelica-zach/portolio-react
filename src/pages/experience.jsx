@@ -42,7 +42,7 @@ const Experience = () => {
 									background: "rgb(33, 150, 243)",
 									color: "#fff",
 								}}
-								icon={<WorkIcon />}
+								// icon={<WorkIcon />}
 							>
 								<h3 className="vertical-timeline-element-title">
 									Creative Director
@@ -62,7 +62,7 @@ const Experience = () => {
 									background: "rgb(33, 150, 243)",
 									color: "#fff",
 								}}
-								icon={<WorkIcon />}
+								// icon={<WorkIcon />}
 							>
 								<h3 className="vertical-timeline-element-title">
 									Art Director
@@ -82,7 +82,7 @@ const Experience = () => {
 									background: "rgb(33, 150, 243)",
 									color: "#fff",
 								}}
-								icon={<WorkIcon />}
+								// icon={<WorkIcon />}
 							>
 								<h3 className="vertical-timeline-element-title">
 									Web Designer
@@ -99,7 +99,7 @@ const Experience = () => {
 									background: "rgb(33, 150, 243)",
 									color: "#fff",
 								}}
-								icon={<WorkIcon />}
+								// icon={<WorkIcon />}
 							>
 								<h3 className="vertical-timeline-element-title">
 									Web Designer
@@ -116,7 +116,7 @@ const Experience = () => {
 									background: "rgb(233, 30, 99)",
 									color: "#fff",
 								}}
-								icon={<SchoolIcon />}
+								// icon={<SchoolIcon />}
 							>
 								<h3 className="vertical-timeline-element-title">
 									Content Marketing for Web, Mobile and Social
@@ -134,7 +134,7 @@ const Experience = () => {
 									background: "rgb(233, 30, 99)",
 									color: "#fff",
 								}}
-								icon={<SchoolIcon />}
+								// icon={<SchoolIcon />}
 							>
 								<h3 className="vertical-timeline-element-title">
 									Agile Development Scrum Master
@@ -154,7 +154,7 @@ const Experience = () => {
 									background: "rgb(233, 30, 99)",
 									color: "#fff",
 								}}
-								icon={<SchoolIcon />}
+								// icon={<SchoolIcon />}
 							>
 								<h3 className="vertical-timeline-element-title">
 									Bachelor of Science in Interactive Digital
@@ -170,7 +170,7 @@ const Experience = () => {
 									background: "rgb(16, 204, 82)",
 									color: "#fff",
 								}}
-								icon={<StarIcon />}
+								// icon={<StarIcon />}
 							/>
 						</VerticalTimeline>
 					</div>
