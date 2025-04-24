@@ -5,7 +5,6 @@ import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
-import statsImage from "../images/stats2.png";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 
@@ -115,7 +114,7 @@ const Process = () => {
 										<div className="d-flex justify-content-center">
 											<img
 												className=""
-												src={statsImage}
+												src="stats2.png"
 												alt="music statistics"
 												style={{ width: "50%" }}
 											/>
