@@ -17,8 +17,8 @@ margin: 0 auto;
 padding-bottom: 30px;
 }
 .title-skills{
-    text-decoration:underline solid;
 	font-family: "Press Start 2P", system-ui;
+	font-size:1em;
 }
 .skill-box{
     display: flex;
@@ -32,4 +32,8 @@ padding-bottom: 30px;
 	font-family: "Press Start 2P", system-ui;
 }
 
-.title-skills{	font-family: "Press Start 2P", system-ui;}
+.skills-title{	font-family: "Press Start 2P", system-ui;
+text-align: center;}
+.skill-container{    padding: 16px;    background: grey;
+    border: 20px solid #ddd3d3;
+	border-radius: 10px;    align-items: center;}
