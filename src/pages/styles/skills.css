@@ -24,3 +24,12 @@ padding-bottom: 30px;
     display: flex;
     justify-content: space-evenly;
 }
+.skill-box{
+    display: none;
+    justify-content: space-evenly;
+}
+.skill-box p{
+	font-family: "Press Start 2P", system-ui;
+}
+
+.title-skills{	font-family: "Press Start 2P", system-ui;}
