@@ -14,19 +14,17 @@ import INFO from "../data/user";
 
 import "./styles/process.css";
 
-const ScrollNav = () => {
+const Process = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	const scrollToSection = (id) => {
 		const section = document.getElementById(id);
 		if (section) {
 			section.scrollIntoView({ behavior: "smooth" });
 		}
 	};
-};
-
-const Process = () => {
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, []);
 
 	return (
 		<React.Fragment>
@@ -260,9 +258,9 @@ const Process = () => {
 								</div>
 							</section>
 
-							<div id="design" className="group"></div>
-							<div id="develop" className="group"></div>
-							<div id="deliver" className="group"></div>
+							<section id="design" className="group"></section>
+							<section id="develop" className="group"></section>
+							<section id="deliver" className="group"></section>
 						</div>
 					</div>
 					<div className="page-footer">
