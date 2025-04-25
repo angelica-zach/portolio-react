@@ -162,10 +162,9 @@ const Process = () => {
 									<div className="d-flex justify-content-center pt-3">
 										<div className="row gy-5 justify-content-between align-content-center">
 											<div className="col text-center">
-												<i
-													className="fas fa-user pink"
-													aria-hidden="true"
-												></i>
+												<FontAwesomeIcon
+													icon={faUser}
+												/>
 												<h4>Katie</h4>
 												<p>
 													It's hard to find music I
@@ -174,10 +173,9 @@ const Process = () => {
 												</p>
 											</div>
 											<div className="col text-center">
-												<i
-													className="fas fa-user purple"
-													aria-hidden="true"
-												></i>
+												<FontAwesomeIcon
+													icon={faUser}
+												/>
 												<h4>Lauren</h4>
 												<p>
 													I wish I could access more
@@ -187,10 +185,9 @@ const Process = () => {
 												</p>
 											</div>
 											<div className="col text-center">
-												<i
-													className="fas fa-user green"
-													aria-hidden="true"
-												></i>
+												<FontAwesomeIcon
+													icon={faUser}
+												/>
 												<h4>Alex</h4>
 												<p>
 													I want to discover more new
