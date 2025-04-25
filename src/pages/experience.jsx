@@ -49,8 +49,9 @@ const Experience = () => {
 									Infopro Digital
 								</h4>
 								<p>
-									Creative Direction, User Experience, Visual
-									Design, Project Management, Team Leading
+									User Experience, Visual Design, Design
+									system consistency, Figma, Hubspot
+									,Eventmaker
 								</p>
 							</VerticalTimelineElement>
 
@@ -74,11 +75,12 @@ const Experience = () => {
 									Front end Web development bootcamp
 								</h3>
 								<h4 className="vertical-timeline-element-subtitle">
-									Certification
+									Edx,Certification
 								</h4>
 								<p>
-									Creative Direction, User Experience, Visual
-									Design
+									HTML, Javascript,React,CSS,Bootstrap as well
+									as wireframing and organisational tools such
+									as GitHub
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -104,10 +106,20 @@ const Experience = () => {
 								<h4 className="vertical-timeline-element-subtitle">
 									2:1 , University of Warwick
 								</h4>
-								<p>
-									Disertaion on 3C Silicon Carbide
-									semiconductors{" "}
-								</p>
+								<ul>
+									<li>
+										Dissertaion on temperature dependant
+										behaviour of 3C Silicon Carbide
+										semiconductors
+									</li>
+									<li>
+										Designed a mini game using FPGAs and
+										Verilog
+									</li>
+									<li>
+										Treasurer of Warwick Anti Sexism Society
+									</li>
+								</ul>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
 								iconStyle={{
