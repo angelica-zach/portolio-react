@@ -14,7 +14,7 @@ import INFO from "../data/user";
 
 import "./styles/process.css";
 
-const ExcerciseProcess = () => {
+const Excercise = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -66,4 +66,4 @@ const ExcerciseProcess = () => {
 	);
 };
 
-export default ExcerciseProcess;
+export default Excercise;
