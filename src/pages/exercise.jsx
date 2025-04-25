@@ -43,7 +43,7 @@ const Exercise = () => {
 								<img
 									className="pt-5"
 									src="/Wellness_figma.png"
-									alt="excercise wireframe"
+									alt="exercise wireframe"
 									style={{ width: "80%" }}
 								/>
 							</div>
