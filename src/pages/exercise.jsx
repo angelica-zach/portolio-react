@@ -35,10 +35,7 @@ const Exercise = () => {
 								<h4 className="subheading fs-6 font-monospace">
 									Wireframe
 								</h4>
-								<br />
-
 								<img
-									className="pt-5"
 									src="/Wellness_figma.png"
 									alt="exercise wireframe"
 									style={{ width: "80%" }}
