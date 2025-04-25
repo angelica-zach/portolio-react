@@ -8,13 +8,11 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 
-import AllProjects from "../components/projects/allProjects";
-
-import INFO from "../data/user";
+i;
 
 import "./styles/process.css";
 
-const Excercise = () => {
+const Exercise = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -66,4 +64,4 @@ const Excercise = () => {
 	);
 };
 
-export default Excercise;
+export default Exercise;

@@ -8,12 +8,13 @@ import Projects from "./pages/projects";
 import Skills from "./pages/skills"
 import Contact from "./pages/contact";
 import Experience from "./pages/experience";
+import Exercise from "./pages/exercise";
 import Process from "./pages/process";
 import Notfound from "./pages/404";
 
 
 import "./app.css";
-import Excercise from "./pages/excercise";
+
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />}/>
 				<Route path="/projects/process" element={<Process />}/>
-				<Route path="/projects/excerise-process" element={<Excercise />}/>
+				<Route path="/projects/exercise-process" element={<Exercise />}/>
 				<Route path="/skills" element={<Skills />} />
 				<Route path="/experience" element={<Experience />} />
 				<Route path="/contact" element={<Contact />} />
