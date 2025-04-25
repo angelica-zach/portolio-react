@@ -19,4 +19,12 @@
 	.all-projects-project {
 		width: calc(100% / 2);
 	}
+
+}
+
+@media (max-width: 425px) {
+	.all-projects-project {
+		width: 100%;
+	}
+
 }

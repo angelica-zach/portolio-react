@@ -23,48 +23,49 @@ const Homepage = () => {
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
-					<div
-						className="homepage-container"
-						style={{
-							backgroundImage: "url(/background.png)",
-							backgroundRepeat: "no-repeat",
-							backgroundSize: "contain",
-							backgroundOrigin: "content-box",
-						}}
-					>
-						<div className="homepage-first-area">
-							<div className="homepage-first-area-left-side">
-								<h3>Angelica Zachowski</h3>
-								<div className="title homepage-title">
-									<TypeAnimation
-										sequence={[
-											"UX", // Types 'One'
-											1000, // Waits 1s
-											"UX /", // Deletes 'One' and types 'Two'
-											500, // Waits 2s
-											"UX / UI", // Types 'Three' without deleting 'Two'
-											1000,
-											"UX / UI Developer", // Types 'Three' without deleting 'Two'
-											2000,
-											"UX / UI", // Types 'Three' without deleting 'Two'
-											500,
-											"UX /", // Types 'Three' without deleting 'Two'
-											500,
-											"UX", // Types 'Three' without deleting 'Two'
-											500,
-											"", // Types 'Three' without deleting 'Two'
-										]}
-										wrapper="span"
-										cursor={true}
-										repeat={Infinity}
-										style={{
-											fontSize: "2em",
-											display: "inline-block",
-										}}
-									/>
+					<div className="homepage-container">
+						<div
+							className="background"
+							style={{
+								backgroundImage: "url(/background.png)",
+								backgroundRepeat: "no-repeat",
+								backgroundSize: "contain",
+								backgroundOrigin: "content-box",
+							}}
+						>
+							<div className="homepage-first-area">
+								<div className="homepage-first-area-left-side">
+									<h3>Angelica Zachowski</h3>
+									<div className="title homepage-title">
+										<TypeAnimation
+											sequence={[
+												"UX", // Types 'One'
+												1000, // Waits 1s
+												"UX /", // Deletes 'One' and types 'Two'
+												500, // Waits 2s
+												"UX / UI", // Types 'Three' without deleting 'Two'
+												1000,
+												"UX / UI Developer", // Types 'Three' without deleting 'Two'
+												2000,
+												"UX / UI", // Types 'Three' without deleting 'Two'
+												500,
+												"UX /", // Types 'Three' without deleting 'Two'
+												500,
+												"UX", // Types 'Three' without deleting 'Two'
+												500,
+												"", // Types 'Three' without deleting 'Two'
+											]}
+											wrapper="span"
+											cursor={true}
+											repeat={Infinity}
+											style={{
+												fontSize: "2em",
+												display: "inline-block",
+											}}
+										/>
+									</div>
 								</div>
-							</div>
-							{/* 
+								{/* 
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
@@ -76,32 +77,32 @@ const Homepage = () => {
 									</div>
 								</div>
 							</div> */}
+							</div>
+
+							<div className="homepage-socials">
+								<a
+									href={INFO.socials.github}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faGithub}
+										className="homepage-social-icon"
+									/>
+								</a>
+
+								<a
+									href={`mailto:${INFO.main.email}`}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faMailBulk}
+										className="homepage-social-icon"
+									/>
+								</a>
+							</div>
 						</div>
-
-						<div className="homepage-socials">
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faMailBulk}
-									className="homepage-social-icon"
-								/>
-							</a>
-						</div>
-
 						<div className="homepage-projects">
 							<AllProjects />
 						</div>

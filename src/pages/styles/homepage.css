@@ -157,6 +157,10 @@
 	.homepage-title span{
 		font-size:1.4em !important;
 	}
+	.homepage-first-area{
+		height:300px;
+	}
+	.homepage-first-area-left-side {
+	min-width: 250px;
+	}
 }
-@media (max-width:425px){
-	.homepage-container{background-size: 500px !important;}}
