@@ -365,12 +365,11 @@ const Process = () => {
 									<p className="p-3">
 										After all the research was done and key
 										areas were identified, it was time to
-										create a polished user interface design
-										prototype on Figma.
+										create a basic wireframe on Figma.
 									</p>
 									<img
 										className=""
-										src="/wireframe.png"
+										src="/moodmatch_wireframe.png"
 										alt="wireframe"
 										style={{ width: "80%" }}
 									/>

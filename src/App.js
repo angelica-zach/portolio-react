@@ -13,6 +13,7 @@ import Notfound from "./pages/404";
 
 
 import "./app.css";
+import ExcerciseProcess from "./pages/excercise_process";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />}/>
 				<Route path="/projects/process" element={<Process />}/>
+				<Route path="/projects/excerise-process" element={<ExcerciseProcess />}/>
 				<Route path="/skills" element={<Skills />} />
 				<Route path="/experience" element={<Experience />} />
 				<Route path="/contact" element={<Contact />} />

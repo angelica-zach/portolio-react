@@ -164,3 +164,7 @@
 	min-width: 250px;
 	}
 }
+@media (max-width:425px){
+	.background{
+background-size: 400px;
+	}}
