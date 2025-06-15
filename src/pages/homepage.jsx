@@ -59,7 +59,6 @@ const Homepage = () => {
 											cursor={true}
 											repeat={Infinity}
 											style={{
-												fontSize: "2em",
 												display: "inline-block",
 											}}
 										/>

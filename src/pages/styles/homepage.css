@@ -109,9 +109,13 @@
 	}
 
 	.homepage-title {
+		
 		width: 100% !important;
 		margin-top: 20px;
 		order: 2;
+	}
+	.homepage-title span{
+		font-size: (4rem, 3.536rem + 2.321vw, 5.625rem);
 	}
 
 	.homepage-subtitle {
@@ -154,9 +158,7 @@
 	.homepage-title{
 		height:200px;
 	}
-	.homepage-title span{
-		font-size:1.4em !important;
-	}
+
 	.homepage-first-area{
 		height:300px;
 	}

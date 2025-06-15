@@ -29,41 +29,62 @@ const About = () => {
 								</div>
 
 								<div className="subtitle about-subtitle">
-									Welcome to my portfolio! I'm a passionate
-									individual who embarked on a journey into
-									web development following my graduation from
-									the<b> University of Warwick</b> with a
+									Welcome to my portfolio! I started journey
+									into web development following my graduation
+									from the<b> University of Warwick</b> with a
 									degree in{" "}
 									<b>Electrical and Electronic Engineering</b>
 									. While my academic background provided me
-									with a strong analytical foundation, I
-									craved an outlet for my creativity.
+									with a strong analytical foundation and an
+									introduction into coding through various
+									projects using C, I craved an career where I
+									could use both my techincal skills but also
+									one that had a big focus on creativity.
 									<br />
 									<br />
-									Web development quickly captured my
-									interest, offering the perfect blend of{" "}
-									<b>creative expression</b> and{" "}
-									<b>technical skills</b>. I discovered that
-									it provided me with the opportunity to
+									Front End Web development and design quickly
+									captured my interest, offering the perfect
+									blend of <b>creative expression</b> and{" "}
+									<b>technical skills</b> and it became clear
+									to me this was something I wanted to pursue
+									so I started an intensive course with edx to
+									ensure I had the skills needed. I discovered
+									that it provided me with the opportunity to
 									exercise control over the visual design of
 									websites, ensuring they not only looked{" "}
 									<b>aesthetically pleasing</b> but also{" "}
-									<b>functioned seamlessly</b>. This resonated
-									with me deeply, as I had long been
-									fascinated by the principles outlined in
-									"The Design of Everyday Things", a book that
-									influenced my perspective on design and
-									usability.
+									<b>functioned seamlessly</b>. This inspired
+									me deeply, as I had long been fascinated by
+									the principles outlined in "The Design of
+									Everyday Things", a book that influenced my
+									perspective on design and usability.
+									<br />
+									<br />I have experience with JavaScript,
+									CSS, HTML, Sass and various other frameworks
+									and platforms such as React and Figma - My
+									full experience can be found in my{" "}
+									<a href="https://linkedin.com/in/angelica-zachowski/">
+										LinkedIn
+									</a>
+									. I have experience in both design and
+									development of Front End components and
+									interfaces, but recently Ive been enjoying
+									the design aspect more and delving in the
+									background behind design principles to
+									ensure all my designs are well balanced
+									using principles such as heuristics.I also
+									really enjoy prototyping in Figma, which I
+									find is a great platform for getting
+									interable wireframes made quickly.
 									<br />
 									Outside of the digital realm, you'll often
-									find me indulging in various hobbies, from
+									find me enagaged in various hobbies, from
 									crocheting new outfits to experimenting with
-									new recipes in the kitchen. I also find
-									solace in activities that promote
-									mindfulness and well-being, such as
-									practicing pilates or immersing myself in
-									nature during walks (usually accompanied by
-									a podcast).
+									new recipes in the kitchen. I also fenjoy
+									activities that promote mindfulness and
+									well-being, such as practicing pilates or
+									immersing myself in nature during walks
+									(usually accompanied by a podcast).
 								</div>
 							</div>
 

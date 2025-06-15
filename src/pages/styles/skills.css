@@ -15,10 +15,12 @@
 max-width: 780px;
 margin: 0 auto; 
 padding-bottom: 30px;
+width: 100%;
 }
 .title-skills{
 	font-family: "Press Start 2P", system-ui;
 	font-size:1em;
+	margin-bottom:20px;
 }
 .skill-box{
     justify-content: space-evenly;
@@ -36,6 +38,11 @@ text-align: center;}
 
 	@media (max-width:768px){
 		.skills-title{
-			font-size: 36px !important;
+			font-size: 30px !important;
 			}
+	}
+	@media (max-width:600px){
+		.section-content-container .cont{
+			max-width: 400px;
+		}
 	}

@@ -22,6 +22,9 @@ const Footer = () => {
 							<Link to="/skills">Skills</Link>
 						</li>
 						<li className="footer-nav-link-item">
+							<Link to="/experience">Experience</Link>
+						</li>
+						<li className="footer-nav-link-item">
 							<Link to="/contact">Contact</Link>
 						</li>
 					</ul>

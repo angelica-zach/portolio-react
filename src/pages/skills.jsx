@@ -94,6 +94,7 @@ const Skills = () => {
 									onClick={() => toggleContent(index)}
 									onMouseEnter={() => setHoveredIndex(index)}
 									onMouseLeave={() => setHoveredIndex(null)}
+									className="cont"
 									style={{
 										cursor: "pointer",
 										transition: "all 0.3s ease",

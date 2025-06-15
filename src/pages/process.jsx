@@ -72,7 +72,7 @@ const Process = () => {
 						<section id="discover">
 							<div
 								className="container-fluid maintext d-flex align-items-center justify-content-center"
-								style={{ height: "25vh", width: "100%" }}
+								style={{ marginTop: "10px", width: "100%" }}
 							>
 								<h2>Discover</h2>
 							</div>
@@ -251,7 +251,7 @@ const Process = () => {
 						<section id="design" className="group">
 							<div
 								className="container-fluid maintext d-flex align-items-center justify-content-center"
-								style={{ height: "25vh", width: "100%" }}
+								style={{ marginTop: "10px", width: "100%" }}
 							>
 								<h2 className="fs-1 pt-1 font-monospace">
 									Define
@@ -344,7 +344,7 @@ const Process = () => {
 						<section id="develop" className="group">
 							<div
 								className="container-fluid maintext d-flex align-items-center justify-content-center"
-								style={{ height: "25vh", width: "100%" }}
+								style={{ marginTop: "10px", width: "100%" }}
 							>
 								<h2 className="fs-1 pt-1 font-monospace">
 									Develop
@@ -413,7 +413,7 @@ const Process = () => {
 							{/* Header */}
 							<div
 								className="container-fluid maintext d-flex align-items-center justify-content-center"
-								style={{ height: "25vh", width: "100%" }}
+								style={{ marginTop: "10px", width: "100%" }}
 							>
 								<h2 className="fs-1 pt-1 font-monospace">
 									Deliver
