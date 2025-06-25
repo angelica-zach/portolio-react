@@ -32,9 +32,12 @@ const YaleArt = () => {
 								See full Figma with wireframes and completed
 								site
 							</a>
-							<a onClick={() => scrollToSection("prototype")}>
+							<button
+								className="secondary"
+								onClick={() => scrollToSection("prototype")}
+							>
 								or scroll to see working prototype
-							</a>
+							</button>
 						</div>
 						<div className="container align-items-center mt-4">
 							<div className="pb-4">
@@ -43,14 +46,15 @@ const YaleArt = () => {
 								</h4>
 								<p className="p-3">
 									I picked this page to redesign as I wanted a
-									challenge it was featured on the
+									challenge it was featured on the{" "}
 									<a href="https://thomasdigital.com/bad-websites?source=post_page-----db7cfebd6091---------------------------------------">
+										{" "}
 										40 worst websites list
 									</a>
-									. Looking at the
+									. Looking at the{" "}
 									<a href="https://www.art.yale.edu/">
 										original site
-									</a>
+									</a>{" "}
 									it was very cluttered and hard to navigate ,
 									leading to accesibility issues.
 								</p>

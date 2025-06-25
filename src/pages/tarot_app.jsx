@@ -30,9 +30,12 @@ const TarotApp = () => {
 								See Full Figma with wireframes and completed
 								pages
 							</a>
-							<a onClick={() => scrollToSection("prototype")}>
+							<button
+								className="secondary"
+								onClick={() => scrollToSection("prototype")}
+							>
 								or scroll to see user flows prototype
-							</a>
+							</button>
 						</div>
 						<div className="container align-items-center mt-4">
 							<div className="pb-4">

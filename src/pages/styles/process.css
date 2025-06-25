@@ -13,6 +13,7 @@ h4.subtitle{
 }
 .process-header .project-link{
 	font-size:20px;
+	color:var(--link-color)
 }
 .steps{display: inline-flex;
     justify-content: space-evenly;
@@ -33,6 +34,17 @@ flex-wrap: wrap;}
 }
 
 .border.border-primary.rounded{border-color:#CE5070 !important}
+.project-link{
+	color: var(--link-color);
+}
+
+button.secondary{
+	border: var(--link-color) 1px solid;
+	border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(108, 135, 60, 0.2);
+}
 
 section div.container.align-items-center.mt-4{
 	width:60%;
