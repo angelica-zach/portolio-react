@@ -24,7 +24,7 @@ const YaleArt = () => {
 						<div className="title projects-title">Wellness App</div>
 						<div className="process-header">
 							<a
-								href="https://group4-wellness-app.netlify.app/"
+								href="https://www.figma.com/design/heZ5xp7cDFrERBil3UyhLG/Redesign-project---Yale-art?node-id=0-1&t=2nn6u08IFviFU3L2-1"
 								class="project-link"
 							>
 								See Figma
