@@ -8,12 +8,12 @@ const YaleArt = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	// const scrollToSection = (id) => {
-	// 	const section = document.getElementById(id);
-	// 	if (section) {
-	// 		section.scrollIntoView({ behavior: "smooth" });
-	// 	}
-	// };
+	const scrollToSection = (id) => {
+		const section = document.getElementById(id);
+		if (section) {
+			section.scrollIntoView({ behavior: "smooth" });
+		}
+	};
 
 	return (
 		<React.Fragment>
@@ -29,7 +29,11 @@ const YaleArt = () => {
 								href="https://www.figma.com/design/heZ5xp7cDFrERBil3UyhLG/Redesign-project---Yale-art?node-id=0-1&t=2nn6u08IFviFU3L2-1"
 								class="project-link"
 							>
-								See Figma
+								See full Figma with wireframes and completed
+								site
+							</a>
+							<a onClick={() => scrollToSection("prototype")}>
+								or scroll to see working prototype
 							</a>
 						</div>
 						<div className="container align-items-center mt-4">
@@ -96,6 +100,21 @@ const YaleArt = () => {
 									access key information eg. the courses
 									easily
 								</p>
+							</div>
+							<div className="pb-4">
+								<h4
+									className="subheading fs-6 font-monospace"
+									id="prototype"
+								>
+									Working Protoype
+								</h4>
+								<iframe
+									style="border: 1px solid rgba(0, 0, 0, 0.1);"
+									width="800"
+									height="450"
+									src="https://embed.figma.com/proto/heZ5xp7cDFrERBil3UyhLG/Redesign-project---Yale-art?node-id=75-1057&scaling=scale-down-width&content-scaling=fixed&page-id=75%3A807&embed-host=share"
+									allowfullscreen
+								></iframe>
 							</div>
 						</div>
 						<div className="page-footer">

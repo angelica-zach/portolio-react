@@ -8,12 +8,12 @@ const TarotApp = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	// const scrollToSection = (id) => {
-	// 	const section = document.getElementById(id);
-	// 	if (section) {
-	// 		section.scrollIntoView({ behavior: "smooth" });
-	// 	}
-	// };
+	const scrollToSection = (id) => {
+		const section = document.getElementById(id);
+		if (section) {
+			section.scrollIntoView({ behavior: "smooth" });
+		}
+	};
 
 	return (
 		<React.Fragment>
@@ -27,7 +27,11 @@ const TarotApp = () => {
 								href="https://www.figma.com/design/JrfNF0k1ASftLToLfa9gYT/Tarot-app?node-id=1-2&t=TDr1VzVZ5fYKqTVM-1"
 								class="project-link"
 							>
-								See Figma
+								See Full Figma with wireframes and completed
+								pages
+							</a>
+							<a onClick={() => scrollToSection("prototype")}>
+								or scroll to see user flows prototype
 							</a>
 						</div>
 						<div className="container align-items-center mt-4">
@@ -85,6 +89,21 @@ const TarotApp = () => {
 									pre-set ones and also more horoscope
 									analysis
 								</p>
+							</div>
+							<div className="pb-4">
+								<h4
+									className="subheading fs-6 font-monospace"
+									id="prototype"
+								>
+									User Flows
+								</h4>
+								<iframe
+									style="border: 1px solid rgba(0, 0, 0, 0.1);"
+									width="800"
+									height="450"
+									src="https://embed.figma.com/proto/JrfNF0k1ASftLToLfa9gYT/Tarot-app?node-id=36-303&p=f&scaling=min-zoom&content-scaling=fixed&page-id=36%3A283&starting-point-node-id=36%3A288&show-proto-sidebar=1&embed-host=share"
+									allowfullscreen
+								></iframe>
 							</div>
 						</div>
 						<div className="page-footer">
