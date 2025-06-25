@@ -11,6 +11,8 @@ import Experience from "./pages/experience";
 import Exercise from "./pages/exercise";
 import Process from "./pages/process";
 import Notfound from "./pages/404";
+import TarotApp from "./pages/tarot_app";
+import YaleArt from "./pages/yale_art";
 
 
 import "./app.css";
@@ -25,6 +27,8 @@ function App() {
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />}/>
+				<Route path="/projects/tarot-app" element={<TarotApp />}/>
+				<Route path="/projects/yale-redesign" element={<YaleArt />}/>
 				<Route path="/projects/process" element={<Process />}/>
 				<Route path="/projects/exercise-process" element={<Exercise />}/>
 				<Route path="/skills" element={<Skills />} />

@@ -1,0 +1,104 @@
+import React, { useEffect } from "react";
+import NavBar from "../components/common/navBar";
+import Footer from "../components/common/footer";
+import "./styles/process.css";
+
+const YaleArt = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
+	// const scrollToSection = (id) => {
+	// 	const section = document.getElementById(id);
+	// 	if (section) {
+	// 		section.scrollIntoView({ behavior: "smooth" });
+	// 	}
+	// };
+
+	return (
+		<React.Fragment>
+			<div className="page-content">
+				<NavBar active="projects" />
+				<div className="content-wrapper">
+					<div className="process-container">
+						<div className="title projects-title">Wellness App</div>
+						<div className="process-header">
+							<a
+								href="https://group4-wellness-app.netlify.app/"
+								class="project-link"
+							>
+								See Figma
+							</a>
+						</div>
+						<div className="container align-items-center mt-4">
+							<div className="pb-4">
+								<h4 className="subheading fs-6 font-monospace">
+									Background
+								</h4>
+								<p className="p-3">
+									I picked this page to redesign as I wanted a
+									challenge it was featured on the 40 worst
+									websites list
+									https://thomasdigital.com/bad-websites?source=post_page-----db7cfebd6091---------------------------------------
+									Looking at the original site it was very
+									cluttered and hard to naviagte :
+									https://www.art.yale.edu/ , leading to
+									accesibility issues.
+								</p>
+								<p className="p-3">
+									Part of the reason for this cluttered look
+									was that the site allows students to update
+									pages with content and background images ,
+									which I decided to keep, as the art school
+									promotes creativity, but worked towards a
+									solution that was easier to navigate and
+									more visually appealing. To do this ,Ive
+									maintained the functionality of students
+									being able to change the background and add
+									content blocks but swapped to a sleeker UI
+									and the white on black / black on white text
+									ensures that no matter what the background
+									is , the text will still be legible - Ive
+									also added in an option with either a black
+									or white stroke encompassing each element to
+									add even more contrast.
+								</p>
+								<p className="p-3">
+									Ive also added in a more defined home and
+									menu screen ,and expanded the footer to full
+									width to allow easier site navigation - and
+									added in thier logo to tie in the art
+									schools branding.To align it with the main
+									Yale school and site,Ive chnaged the font to
+									more closely match the main Yale page
+									https://www.yale.edu/ , so that there is a
+									clear brand identity link - The Yale font
+									itself is behind a paywall and is only
+									availbale for use by students and Alumni so
+									I used Linux LIbertine which closely matches
+									this. Ive also addded in some animations
+									with the text to be more visually
+									interesting. To help gather ideas for how to
+									style this website, I looked at other art
+									schools to see how they have laid out
+									similar content. So, the redesign has
+									cleared up the visual clutter whilst
+									retaining the interactive element of the
+									page (which is key as it is for an Art
+									school) and allows visitor to be able to
+									access key information eg. the courses
+									easily
+								</p>
+							</div>
+						</div>
+						<div className="page-footer">
+							<Footer />
+						</div>
+					</div>
+				</div>
+			</div>
+		</React.Fragment>
+	);
+};
+
+export default YaleArt;
