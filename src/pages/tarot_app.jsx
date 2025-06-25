@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import FigmaEmbed from "react-figma-embed";
 import "./styles/process.css";
 
 const TarotApp = () => {
