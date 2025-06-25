@@ -98,15 +98,16 @@ const TarotApp = () => {
 								>
 									User Flows
 								</h4>
-								{/* <iframe
-									style="border: 1px solid rgba(0, 0, 0, 0.1);"
-									width="800"
-									height="450"
-									loading="lazy"
-									src="https://embed.figma.com/proto/JrfNF0k1ASftLToLfa9gYT/Tarot-app?node-id=36-303&p=f&scaling=min-zoom&content-scaling=fixed&page-id=36%3A283&starting-point-node-id=36%3A288&show-proto-sidebar=1&embed-host=share"
-									allowfullscreen
-								></iframe> */}
-								<FigmaEmbed url="https://embed.figma.com/proto/JrfNF0k1ASftLToLfa9gYT/Tarot-app?node-id=36-303&p=f&scaling=min-zoom&content-scaling=fixed&page-id=36%3A283&starting-point-node-id=36%3A288&show-proto-sidebar=1&embed-host=share" />
+								<div>
+									<iframe
+										style="border: 1px solid rgba(0, 0, 0, 0.1);"
+										width="800"
+										height="450"
+										loading="lazy"
+										src="https://embed.figma.com/proto/JrfNF0k1ASftLToLfa9gYT/Tarot-app?node-id=36-303&p=f&scaling=min-zoom&content-scaling=fixed&page-id=36%3A283&starting-point-node-id=36%3A288&show-proto-sidebar=1&embed-host=share"
+										allowfullscreen
+									></iframe>
+								</div>
 							</div>
 						</div>
 						<div className="page-footer">
