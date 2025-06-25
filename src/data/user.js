@@ -29,6 +29,15 @@ const INFO = {
 			linkText: "View Project",
 			link:"/projects/yale-redesign",
 		},
+		
+		{
+			title: "Mood Match",
+			description:
+				"Early App created to be able to pick a mood card, which return corresponding playlists and concerts to match your groove - a UX research based project complete with user personas, interviews with a complete discover,design,develop and deliver lifecycle process.Made as part of my Front End Developer bootcamp ",
+			linkText: "View Project and design process",
+			link: "/projects/process",
+		},
+
 		{
 			title: "Wellness App",
 			description:
@@ -36,15 +45,6 @@ const INFO = {
 			linkText: "View Project",
 			link:"/projects/exercise-process",
 		},
-
-		{
-			title: "Mood Match",
-			description:
-				"App created to be able to pick a mood card, which return corresponding playlists and concerts to match your groove - a UX research based project",
-			linkText: "View Project and design process",
-			link: "/projects/process",
-		},
-
 
 		{
 			title: "Weather Forecast Page",
