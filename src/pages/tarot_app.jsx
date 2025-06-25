@@ -21,7 +21,7 @@ const TarotApp = () => {
 				<NavBar active="projects" />
 				<div className="content-wrapper">
 					<div className="process-container">
-						<div className="title projects-title">Wellness App</div>
+						<div className="title projects-title">Tarot App</div>
 						<div className="process-header">
 							<a
 								href="https://www.figma.com/design/JrfNF0k1ASftLToLfa9gYT/Tarot-app?node-id=1-2&t=TDr1VzVZ5fYKqTVM-1"

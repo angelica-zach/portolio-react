@@ -21,7 +21,9 @@ const YaleArt = () => {
 				<NavBar active="projects" />
 				<div className="content-wrapper">
 					<div className="process-container">
-						<div className="title projects-title">Wellness App</div>
+						<div className="title projects-title">
+							Yale Art Redesign
+						</div>
 						<div className="process-header">
 							<a
 								href="https://www.figma.com/design/heZ5xp7cDFrERBil3UyhLG/Redesign-project---Yale-art?node-id=0-1&t=2nn6u08IFviFU3L2-1"
@@ -37,13 +39,16 @@ const YaleArt = () => {
 								</h4>
 								<p className="p-3">
 									I picked this page to redesign as I wanted a
-									challenge it was featured on the 40 worst
-									websites list
-									https://thomasdigital.com/bad-websites?source=post_page-----db7cfebd6091---------------------------------------
-									Looking at the original site it was very
-									cluttered and hard to naviagte :
-									https://www.art.yale.edu/ , leading to
-									accesibility issues.
+									challenge it was featured on the
+									<a href="https://thomasdigital.com/bad-websites?source=post_page-----db7cfebd6091---------------------------------------">
+										40 worst websites list
+									</a>
+									. Looking at the
+									<a href="https://www.art.yale.edu/">
+										original site
+									</a>
+									it was very cluttered and hard to navigate ,
+									leading to accesibility issues.
 								</p>
 								<p className="p-3">
 									Part of the reason for this cluttered look
@@ -70,21 +75,23 @@ const YaleArt = () => {
 									added in thier logo to tie in the art
 									schools branding.To align it with the main
 									Yale school and site,Ive chnaged the font to
-									more closely match the main Yale page
-									https://www.yale.edu/ , so that there is a
-									clear brand identity link - The Yale font
-									itself is behind a paywall and is only
-									availbale for use by students and Alumni so
-									I used Linux LIbertine which closely matches
-									this. Ive also addded in some animations
-									with the text to be more visually
-									interesting. To help gather ideas for how to
-									style this website, I looked at other art
-									schools to see how they have laid out
-									similar content. So, the redesign has
-									cleared up the visual clutter whilst
-									retaining the interactive element of the
-									page (which is key as it is for an Art
+									more closely match the{" "}
+									<a href="https://www.yale.edu/">
+										main Yale webpage
+									</a>{" "}
+									, so that there is a clear brand identity
+									link - The Yale font itself is behind a
+									paywall and is only availbale for use by
+									students and Alumni so I used Linux
+									LIbertine which closely matches this. Ive
+									also addded in some animations with the text
+									to be more visually interesting. To help
+									gather ideas for how to style this website,
+									I looked at other art schools to see how
+									they have laid out similar content. So, the
+									redesign has cleared up the visual clutter
+									whilst retaining the interactive element of
+									the page (which is key as it is for an Art
 									school) and allows visitor to be able to
 									access key information eg. the courses
 									easily
