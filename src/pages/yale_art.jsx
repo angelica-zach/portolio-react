@@ -109,7 +109,9 @@ const YaleArt = () => {
 									Working Protoype
 								</h4>
 								<iframe
-									style="border: 1px solid rgba(0, 0, 0, 0.1);"
+									style={{
+										border: "1px solid rgba(0, 0, 0, 0.1)",
+									}}
 									width="800"
 									height="450"
 									src="https://embed.figma.com/proto/heZ5xp7cDFrERBil3UyhLG/Redesign-project---Yale-art?node-id=75-1057&scaling=scale-down-width&content-scaling=fixed&page-id=75%3A807&embed-host=share"
