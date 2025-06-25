@@ -103,7 +103,7 @@ const TarotApp = () => {
 										width="800"
 										height="450"
 										loading="lazy"
-										src="https://embed.figma.com/proto/JrfNF0k1ASftLToLfa9gYT/Tarot-app?node-id=36-303&p=f&scaling=min-zoom&content-scaling=fixed&page-id=36%3A283&starting-point-node-id=36%3A288&show-proto-sidebar=1&embed-host=share"
+										src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/JrfNF0k1ASftLToLfa9gYT/Tarot-app?node-id=36-303"
 										allowfullscreen
 									></iframe>
 								</div>
